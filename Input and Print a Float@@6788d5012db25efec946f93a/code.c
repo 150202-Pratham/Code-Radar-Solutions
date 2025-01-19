@@ -5,11 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+   
 
     float num ;
-    scanf("%f" , &num) ;
-    printf("%f" , num)   ;
-    
+    scanf("%f" ,&num) ;
+    printf("You entered:%f",num);
+
     return 0;
 }
