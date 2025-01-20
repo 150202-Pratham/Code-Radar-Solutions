@@ -9,8 +9,8 @@ int main() {
     char brr[100] ;
 
     scanf("%s\n%s" ,&arr , &brr );
-    printf("%s\n" , arr);
-    printf("%s",brr) ;
+    printf("You entered: %s and %s" , arr , brr);
+    
 
     return 0;
 }
