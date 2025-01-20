@@ -5,12 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    char arr[] ;
-    char brr[] ;
+    char arr[100] ;
+    char brr[100] ;
 
     scanf("%s\n%s" ,&arr , &brr );
     printf("%s\n" , arr);
     printf("%s",brr) ;
-    
+
     return 0;
 }
