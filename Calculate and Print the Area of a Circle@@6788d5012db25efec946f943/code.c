@@ -4,10 +4,9 @@
 
 int main() {
     float a ;
-    scanf("%.1f" , &a);
-   float area = 3.14 *a *a ;
-
-    printf("Area: %f" , area);
+    scanf("%f" , &a);
+    float area = 3.14 *a *a ;
+    printf("Area: %.2f" , area);
 
     return 0;
 }
