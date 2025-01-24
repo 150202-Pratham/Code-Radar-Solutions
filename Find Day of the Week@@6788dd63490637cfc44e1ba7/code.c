@@ -26,6 +26,6 @@ int main() {
             break ;
 
         default:
-            printf("Not a Valid Input") ;
+            printf(" ") ;
     }
 }
