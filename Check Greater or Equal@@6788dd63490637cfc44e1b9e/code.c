@@ -12,7 +12,7 @@ int main() {
 
    }
    else{
-    prinf("No") ;
+    printf("No") ;
 
    }
    
