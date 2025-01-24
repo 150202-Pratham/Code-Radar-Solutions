@@ -6,13 +6,13 @@ int main() {
 
     scanf("%d %d") ;
     
-    if(pow(b,b)==a){
+    if((b*b)==a){
         printf("Yes") ;
 
     }
     else{
         printf("No") ;
-        
+
     }
 
     return 0;
