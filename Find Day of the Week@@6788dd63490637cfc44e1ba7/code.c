@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-   scanf("%d",&a);
-   char *days[7] = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
-   printf("%s",&days[a-1]) ;
+    int a ;
+
+    int *arr[7] = {"Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"} ;
+    scanf("%d" , &a) ;
+    
+    if(a>=1 && a<=7 ){
+
+        printf(arr[a-1]) ;
+    
+    }
 
     return 0;
 }
