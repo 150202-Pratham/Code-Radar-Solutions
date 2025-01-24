@@ -5,12 +5,17 @@ int main() {
 
    scanf("%c",&a) ;
 
-   if(a>=65 && a<=90){
+   if(a>=65 && a<90){
     printf("Uppercase") ;
    }
 
-   else{
+   else(a>=90 && a<=122){
     printf("Lowercase") ;
+    
+   }
+
+   else{
+    printf("Not a alphabet") ;
 
    }
     return 0;
