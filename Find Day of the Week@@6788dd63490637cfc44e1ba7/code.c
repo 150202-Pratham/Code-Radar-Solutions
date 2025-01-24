@@ -8,7 +8,7 @@ int main() {
     
     if(a>=1 && a<=7 ){
 
-        printf("%d",arr[a-1]);
+        printf("%s",arr[a-1]);
     
     }
 
