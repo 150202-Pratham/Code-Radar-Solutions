@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int a , b ;
 
@@ -11,11 +7,8 @@ int main() {
 
     if(a%b==0){
         printf("Yes") ;
-
     }
-
     else{
-        prinf("No") ;
-        
+        printf("No") ;
     }
 }
