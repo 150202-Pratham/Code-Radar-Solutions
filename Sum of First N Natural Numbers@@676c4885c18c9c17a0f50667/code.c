@@ -7,7 +7,8 @@ int main() {
     count+=i ;
 
    }
-
    printf("%d" , count) ;
+   return 0 ;
+   
 
 }
