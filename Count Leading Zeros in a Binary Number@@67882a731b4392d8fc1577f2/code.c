@@ -8,9 +8,9 @@ int main() {
 
    count = 0 ;
 
-   while(!(num & (~INT_MAX))){
-    count++ ;
-    num<<=1 ;
+    while(!(num & (~INT_MAX))){
+        count++ ;
+        num <<= 1 ;
 
    }
 
