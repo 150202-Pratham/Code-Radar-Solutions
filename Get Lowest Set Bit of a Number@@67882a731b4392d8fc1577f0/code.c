@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-   int number , order , i ;
+   int num , order , i ;
 
    scanf("%d", &num) ;
 
