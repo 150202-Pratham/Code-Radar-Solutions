@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<limits.h>
 
 int main() {
    int num , count ;
@@ -15,6 +15,6 @@ int main() {
    }
 
    pritnf("%d" , count) ;
-   
+
     return 0;
 }
