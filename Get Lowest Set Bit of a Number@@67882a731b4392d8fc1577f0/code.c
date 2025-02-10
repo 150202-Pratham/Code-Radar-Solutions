@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define INT_SIZE sizeof(int) * 8
 
 int main() {
    int num , order , i ;
