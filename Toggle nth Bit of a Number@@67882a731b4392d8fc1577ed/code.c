@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int num , newnum , n ;
-    scanf("%d" , &num, &n);
+    scanf("%d %d" , &num, &n);
 
    newnum  = num^(1<<n) ;
 
