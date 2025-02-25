@@ -27,11 +27,11 @@ int main(){
 
     if(counter==1){
         printf("Sorted") ;
-        
+
     }
 
     else{
-        printf("Non-Sorted");
+        printf("Not Sorted");
 
 
     }
