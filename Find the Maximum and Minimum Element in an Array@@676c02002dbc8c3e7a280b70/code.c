@@ -28,6 +28,6 @@ int main(){
 
     
         
-        printf("%d %d" , min_Element , max_Element) ;
+        printf("%d %d" , arr[min_Element] , arr[max_Element]) ;
         
 }
