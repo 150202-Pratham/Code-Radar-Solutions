@@ -12,7 +12,7 @@ int main(){
     
     for(int i = 0 ; i<N ; i++){
         scanf("%d", &arr[i]) ;
-        
+
     }
     for(int i = 0 ; i<N ; i++){
 
@@ -20,8 +20,10 @@ int main(){
             even_numbers +=1 ;
 
         }
-
-        odd_numbers+=1 ;
+        else{
+            odd_numbers+=1 ;
+        }
+        
 
     }
 
