@@ -32,7 +32,7 @@ int main(){
         }
     }
 
-    printf("%d" , secondmax)
+    printf("%d" , secondmax);
 
 
 
