@@ -27,7 +27,7 @@ int main(){
         }
     }
 
-    printf("%d" , counter) ;
+    printf("%d" , count) ;
 
     
 
