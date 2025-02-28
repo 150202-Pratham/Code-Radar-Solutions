@@ -14,7 +14,8 @@ int main(){
 
     }
     for(int i = 0 ; i<n ; i++){
-
+        int count = 0 ;
+        
         for(int j = 0 ; j<n ; j++){
             if(arr[i]==arr[j]){
                 count++ ;
@@ -24,10 +25,12 @@ int main(){
 
             }
         }
-        max_count = INT_MAX(max_count , count) ;
-        count = 0 ;
+        if (count > max_count) {
+            max_count = count;
+        }
         
     }
 
-    printf("%d",max_count) 
+    printf("%d",max_count) ;
+
 }
