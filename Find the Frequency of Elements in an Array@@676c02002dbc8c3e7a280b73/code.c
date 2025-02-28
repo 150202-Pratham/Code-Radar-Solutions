@@ -12,7 +12,7 @@ void printFrequency(int arr[], int n) {
     
     for (int i = 0; i < MAX; i++) {
         if (freq[i] > 0) {
-            printf("%d -> %d\n", i, freq[i]);
+            printf("%d %d\n", i, freq[i]);
         }
     }
 }
