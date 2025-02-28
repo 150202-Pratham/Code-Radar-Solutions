@@ -1,36 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+#define MAX 100 
 
-    int N ;
+void printFrequency(int arr[], int n) {
+    int freq[MAX] = {0};
 
-    scanf("%d" , &N) ;
-
-    int arr[N] ;
-
-    for(int i = 0 ; i<N ;i++){
-
-        scanf("%d", &arr[i]) ; 
+    for (int i = 0; i < n; i++) {
+        freq[arr[i]]++; 
     }
 
-    int count = 0 ;
-
-    for(int i = 0 ; i<N ; i++){
-
-        for(int j = i+1 ; j<N ;j++){
-
-            if(arr[i]==arr[j]){
-                count++ ;
-
-            }
-
+    
+    for (int i = 0; i < MAX; i++) {
+        if (freq[i] > 0) {
+            printf("%d -> %d\n", i, freq[i]);
         }
     }
+}
 
-    printf("%d" , count) ;
+int main() {
+    int arr[] = {1, 2, 2, 3, 4, 4, 4, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
 
-    
+    printFrequency(arr, n);
 
-
-    
+    return 0;
 }
