@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-int ifExist(int &arr[] , int k){
+int ifExist(int *arr[] , int k){
     
    for(int i = 0 ; i<N ;i++){
        
