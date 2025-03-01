@@ -1,62 +1,39 @@
-#include<stdio.h>
-#include<limits.h>
-#include<stdbool.h> 
-int main(){
+#include <stdio.h>
+#include <limits.h>
+#include <stdbool.h>
 
-    int N ;
-    scanf("%d" , &N) ;
-    bool sameElement = false ;
+int main() {
+    int N;
+    scanf("%d", &N);
 
-    int arr[N] ;
-    
-    for(int i = 0 ; i<N;i++){
+    int arr[N];
 
-        scanf("%d" , &arr[i]) ;
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);
     }
-    
-    int largest = INT_MIN , secondmax = INT_MIN;
 
-    for(int i = 0 ; i<N ; i++){
+    int largest = INT_MIN, secondmax = INT_MIN;
+    bool allSame = true; 
 
-        if(arr[i]>largest){
+    largest = arr[0]; 
 
+    for (int i = 1; i < N; i++) {
+        if (arr[i] != arr[i - 1]) {
+            allSame = false; 
+        }
+        if (arr[i] > largest) {
+            secondmax = largest;
             largest = arr[i];
-
-        }
-        
-
-
-    }
-
-    for(int i = 0 ; i<N ; i++){
-
-        if(arr[i]>secondmax && arr[i]!=largest){
-
-            secondmax = arr[i] ;
-
+        } else if (arr[i] > secondmax && arr[i] < largest) {
+            secondmax = arr[i];
         }
     }
-    
-    for(int i = 0 ; i<N-1 ; i++){
 
-        if(arr[i]==arr[i+1]){
-            sameElement = true ;
-
-        }
-    }
-    
-
-    if(sameElement == true){
-
-        printf("-1") ;
-
-
+    if (allSame || secondmax == INT_MIN) {
+        printf("-1\n");
+    } else {
+        printf("%d\n", secondmax);
     }
 
-    else{
-        printf("%d" , secondmax);
-    }
-
-
-
+    return 0;
 }
