@@ -1,12 +1,14 @@
 #include<stdio.h>
 #include<limits.h>
-
+#include<stdbool.h> 
 int main(){
 
     int N ;
     scanf("%d" , &N) ;
-    int arr[N] ;
+    bool sameElement = false ;
 
+    int arr[N] ;
+    
     for(int i = 0 ; i<N;i++){
 
         scanf("%d" , &arr[i]) ;
@@ -21,6 +23,7 @@ int main(){
             largest = arr[i];
 
         }
+        
 
 
     }
@@ -33,8 +36,26 @@ int main(){
 
         }
     }
+    
+    for(int i = 0 ; i<N-1 ; i++){
 
-    printf("%d" , secondmax);
+        if(arr[i]==arr[i+1]){
+            sameElement = true ;
+
+        }
+    }
+    
+
+    if(sameElement == true){
+
+        printf("-1") ;
+
+
+    }
+
+    else{
+        printf("%d" , secondmax);
+    }
 
 
 
