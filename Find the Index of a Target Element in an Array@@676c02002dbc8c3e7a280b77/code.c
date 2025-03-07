@@ -17,7 +17,7 @@ int main(){
     scanf("%d" , &K) ;
     for(int i = 0 ; i<N ;i++){
        
-       if(arr[i]==k){
+       if(arr[i]==K){
           myvalue  = i  ;
           break ;
        }
