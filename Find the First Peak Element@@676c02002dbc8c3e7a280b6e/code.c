@@ -23,16 +23,12 @@ int main(){
 
       if(arr[mid]>arr[mid-1] && arr[mid]>arr[mid+1]){
           result  = arr[mid] ;
-
            
-           break ;
 
       }
 
       else if(arr[mid]>arr[mid-1]){
         start = mid+1 ;
-
-        
       }
 
       else{
