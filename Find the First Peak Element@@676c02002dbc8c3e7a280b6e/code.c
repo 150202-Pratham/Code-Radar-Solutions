@@ -21,9 +21,9 @@ int main(){
 
       mid = start+(end-start)/2 ;
 
-      if(arr[mid]>arr[mid-1] && arr[mid]>arr[mid+1]){
+      if((mid==0 ||arr[mid]>arr[mid-1]) && (mid==N-1 || arr[mid]>arr[mid+1])){
           result  = arr[mid] ;
-           break ;
+          break ;
 
       }
 
