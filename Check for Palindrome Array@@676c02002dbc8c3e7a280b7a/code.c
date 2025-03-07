@@ -13,12 +13,14 @@ int main(){
 
     int i = 0 , j = N-1 ;
 
-    int result = 1 ;
+    int result = 0 ;
 
     while(i<j){
         
-        if(arr[i]==arr[j]){
-            result = 0 ;
+        if(arr[i]!=arr[j]){
+            result = 1 ;
+            break ;
+
 
         }
 
