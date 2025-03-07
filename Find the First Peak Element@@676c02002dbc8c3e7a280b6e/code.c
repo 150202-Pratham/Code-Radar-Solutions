@@ -15,15 +15,16 @@ int main(){
 
    }
 
-   int start = 0 , end = N-1 , mid ;
+   int start = 0 , end = N-1 , mid , result = -1 ;
 
    while(start<=end){
 
       mid = start+(end-start)/2 ;
 
       if(arr[mid]>arr[mid-1] && arr[mid]>arr[mid+1]){
-          
-           printf("%d" , arr[mid]);
+          result  = arr[mid] ;
+
+           
            break ;
 
       }
@@ -39,6 +40,9 @@ int main(){
 
       }
    }
+
+
+   printf("%d" , arr[mid]);
 
 }
 
