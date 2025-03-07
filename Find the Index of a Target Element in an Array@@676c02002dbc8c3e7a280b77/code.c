@@ -21,6 +21,7 @@ int main(){
           myvalue  = i  ;
           break ;
        }
+       myvalue = -1 
     }
 
    printf("%d" , myvalue);
