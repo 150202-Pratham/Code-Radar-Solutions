@@ -16,7 +16,7 @@ int main(){
     }
 
     for(int i = 0 ; i<N ; i++){
-        sum = (N*(N+1)/2)-sum ;
+        sum = ((N*(N+1))/2)-sum ;
 
     }
     printf("%d" , sum) ;
