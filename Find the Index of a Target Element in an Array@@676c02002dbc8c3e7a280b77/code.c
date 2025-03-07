@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 
-    int N , K=0 , myvalue;
+    int N , K=0 , myvalue = -1;
 
     scanf("%d" , &N) ;
     
@@ -21,7 +21,7 @@ int main(){
           myvalue  = i  ;
           break ;
        }
-       myvalue = -1 
+       
     }
 
    printf("%d" , myvalue);
