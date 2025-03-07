@@ -1,22 +1,7 @@
 #include<stdio.h>
-
-
-int ifExist(int arr[] , int k , int N){
-    
-   for(int i = 0 ; i<N ;i++){
-       
-       if(arr[i]==k){
-         return  i ;
-       }
-
-
-    }
-
-
-}
 int main(){
 
-    int N , K;
+    int N , K , myvalue;
 
     scanf("%d" , &N) ;
     
@@ -30,10 +15,15 @@ int main(){
     }
     
     scanf("%d" , &K) ;
-   printf("%d" , ifExist(arr , k ,N)) ;
+    for(int i = 0 ; i<N ;i++){
+       
+       if(arr[i]==k){
+          myvalue  = i  ;
+          break ;
+       }
+    }
 
-
+   printf("%d" , myvalue);
     
-
 
 }
