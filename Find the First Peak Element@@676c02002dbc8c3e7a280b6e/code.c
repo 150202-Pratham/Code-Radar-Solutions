@@ -42,7 +42,7 @@ int main(){
    }
 
 
-   printf("%d" , arr[mid]);
+   printf("%d" , result);
 
 }
 
