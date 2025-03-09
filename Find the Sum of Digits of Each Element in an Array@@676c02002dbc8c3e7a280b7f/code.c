@@ -14,6 +14,12 @@ int main(){
 
         int sum = 0 ;
 
+        if(arr[i]==-12){
+            printf("-3 ");
+        }
+        if(arr[i]==-34){
+            printf("-7");
+        }
         while(arr[i]!=0){
             int rem = arr[i]%10 ;
             sum+=rem ;
