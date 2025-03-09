@@ -33,7 +33,7 @@ bool checkPrime(int N){
 
     return true ;
 
-    
+
 }
 int main(){
 
@@ -61,4 +61,8 @@ int main(){
 
         }
     }
+
+
+    printf("%d" , final_cnt) ;
+    
 }
