@@ -7,7 +7,7 @@ int main(){
     int arr[N];
 
     int j = 0 ;
-    for(int = 0 ; i<N ; i++){
+    for(int i = 0 ; i<N ; i++){
 
         if(arr[i]!=0){
             int temp = arr[i] ;
