@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdlib.h> 
 
 int main(){
 
@@ -13,17 +14,14 @@ int main(){
         scanf("%d" , &arr[i]);
 
         int sum = 0 ;
+        
+        int n = abs(arr[i]) ;
 
-        if(arr[i]==-12){
-            printf("-3 ");
-        }
-        if(arr[i]==-34){
-            printf("-7");
-        }
+        
         while(arr[i]!=0){
-            int rem = arr[i]%10 ;
+            int rem = n%10 ;
             sum+=rem ;
-            arr[i] = arr[i]/10 ;
+            n = n/10 ;
         }
 
         printf("%d " , sum);
