@@ -18,7 +18,7 @@ int main(){
         int n = abs(arr[i]) ;
 
         
-        while(arr[i]!=0){
+        while(n!=0){
             int rem = n%10 ;
             sum+=rem ;
             n = n/10 ;
