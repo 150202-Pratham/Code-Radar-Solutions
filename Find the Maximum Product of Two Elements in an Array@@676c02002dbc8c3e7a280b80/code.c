@@ -19,7 +19,7 @@ int main(){
         scanf("%d" , &arr[i]) ;
     }
     
-     long int  max_Product = 1 ;
+     long int  max_Product = 0 ;
 
     
     for(int i = 0 ;i<N-1 ;i++){
