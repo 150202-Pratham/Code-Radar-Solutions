@@ -22,14 +22,10 @@ int main(){
      long int  max_Product = 1 ;
 
     
-    for(int i = 0 ;i<N ;i++){
-      
-      for(int j = i+1 ; j<N-1 ; j++){
-
-         max_Product = max(max_Product , (arr[i]*arr[j])) ;
-
-      }
-        
+    for(int i = 0 ;i<N-1 ;i++){
+    
+         max_Product = max(max_Product , (arr[i]*arr[i+1])) ;
+  
     }
 
     printf("%ld" , max_Product) ;
