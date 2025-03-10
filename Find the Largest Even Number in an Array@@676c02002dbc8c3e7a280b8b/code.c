@@ -16,7 +16,7 @@ int main(){
 
     }
 
-    int max_Even = -1 ; 
+    int max_Even = INT_MIN ; 
 
 
     for(int i = 0 ;i<N ; i++){
@@ -30,7 +30,11 @@ int main(){
     }
 
 
-    printf("%d",max_Even) ;
+    if (maxEven == INT_MIN) {
+        printf("-1\n");
+    } else {
+        printf("%d\n", maxEven);
+    }
 
     
 }
