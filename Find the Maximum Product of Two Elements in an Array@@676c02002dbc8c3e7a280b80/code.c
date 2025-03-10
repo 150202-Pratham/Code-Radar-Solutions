@@ -21,12 +21,12 @@ int main(){
       
       for(int j = 0 ; j<N ; j++){
 
-         max_Product = max(max_Product , arr[i]*arr[j]) ;
+         max_Product = max(max_Product , (arr[i]*arr[j])) ;
 
       }
         
     }
 
     printf("%d" , max_Product) ;
-    
+
 }
