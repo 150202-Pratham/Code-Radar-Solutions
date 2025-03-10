@@ -16,7 +16,7 @@ int main(){
 
     }
 
-    int max_Even = INT_MIN ; 
+    int max_Even = -1 ; 
 
 
     for(int i = 0 ;i<N ; i++){
