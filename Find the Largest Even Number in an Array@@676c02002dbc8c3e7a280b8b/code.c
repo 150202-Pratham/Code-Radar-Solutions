@@ -19,7 +19,7 @@ int main(){
     int max_Even = INT_MIN ; 
 
 
-    for(int j = 0 ;j<N ; j++){
+    for(int i = 0 ;i<N ; i++){
 
         if(arr[i]%2==0 && arr[i]>max_Even){
 
