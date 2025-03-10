@@ -1,5 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+long int max(long int a , long int b){
+
+    return (a>b)?a:b ;
+
+}
 int main(){
 
     int N ;
@@ -13,7 +19,7 @@ int main(){
         scanf("%d" , &arr[i]) ;
     }
     
-     int max_Product = 1 ;
+     long int  max_Product = 1 ;
 
     
     for(int i = 0 ;i<N ;i++){
@@ -26,6 +32,6 @@ int main(){
         
     }
 
-    printf("%d" , max_Product) ;
+    printf("%ld" , max_Product) ;
 
 }
