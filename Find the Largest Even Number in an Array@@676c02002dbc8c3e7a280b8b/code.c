@@ -30,10 +30,10 @@ int main(){
     }
 
 
-    if (maxEven == INT_MIN) {
+    if (max_Even == INT_MIN) {
         printf("-1\n");
     } else {
-        printf("%d\n", maxEven);
+        printf("%d\n", max_Even);
     }
 
     
