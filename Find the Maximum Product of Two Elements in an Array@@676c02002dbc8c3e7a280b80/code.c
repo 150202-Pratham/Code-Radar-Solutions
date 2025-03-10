@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 int main(){
 
     int N ;
@@ -14,7 +13,7 @@ int main(){
         scanf("%d" , &arr[i]) ;
     }
     
-    long int max_Product = 1 ;
+     int max_Product = 1 ;
 
     
     for(int i = 0 ;i<N ;i++){
