@@ -18,7 +18,7 @@ int main(){
 
     int max_Elem = INT_MAX ;
 
-    int Second_Max = -1 ;
+    int Second_Max = INT_MAX ;
 
     for(int i = 0 ; i<N ;i++){
 
@@ -32,7 +32,6 @@ int main(){
             Second_Max = arr[i] ;
         }
     }
-
 
     printf("%d" , Second_Max) ;
  
