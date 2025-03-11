@@ -22,7 +22,7 @@ int main(){
 
         hashTable[arr[i]]++ ;
 
-        if(hashTable[arr[i]]>=Max_frequency){
+        if(hashTable[arr[i]]>Max_frequency){
             
             Max_frequency = hashTable[arr[i]] ;
             Most_frequent = arr[i] ;
