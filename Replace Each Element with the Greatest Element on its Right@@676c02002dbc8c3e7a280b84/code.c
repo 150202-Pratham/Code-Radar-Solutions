@@ -16,7 +16,7 @@ int main(){
 
     for(int i = 0 ; i<N ; i++){
 
-        int max_Elem = 0 ;
+        int max_Elem = -1 ;
 
         for(int j = i+1 ; j<N ; j++){
 
@@ -40,7 +40,7 @@ int main(){
 
     }
 
-    
+
     return 0 ;
 
 
