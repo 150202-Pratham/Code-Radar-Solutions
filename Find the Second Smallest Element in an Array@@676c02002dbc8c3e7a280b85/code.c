@@ -3,7 +3,6 @@
 #include<stdio.h>
 #include<limits.h>
 
-
 int main(){
 
     int N ;
@@ -15,8 +14,6 @@ int main(){
     for(int i = 0 ; i<N ; i++){
 
         scanf("%d" , &arr[i]) ;
-
-
     }
 
     int max_Elem = INT_MAX ;
@@ -30,17 +27,13 @@ int main(){
 
         }
 
-        if(arr[i]<Second_Max && arr[i]!=max_Elem){
+        if(arr[i]<Second_Max && arr[i]>max_Elem){
 
             Second_Max = arr[i] ;
-
-
         }
     }
 
 
     printf("%d" , Second_Max) ;
-
-
-
+ 
 }
