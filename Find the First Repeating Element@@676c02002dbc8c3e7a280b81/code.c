@@ -11,35 +11,20 @@ int main(){
         scanf("%d" , &arr[i]) ;
     }
 
-    int frequencyelem [N+1] ;
-
-    for(int i = 0 ; i<N ; i++){
-
-        frequencyelem[i] = 0  ;
-
-
-    }
+    int frequencyelem[100000] = {0} ;
 
     for(int i = 0 ; i< N ; i++){
 
         frequencyelem[arr[i]] ++ ;
+        
+        if(frequencyelem[arr[i]]==2){
+            printf("%d" , arr[i]) ;
+            break ;
+            
+            
+        }
      
 
     }
-
-    for(int j = 0 ;j<N ; j++){
-
-        if(frequencyelem[j]>=2){
-
-            printf("%d",j) ;
-            break ;
-
-        }
-    }
-
-   return 0 ;
-
-
-
-
+   return -1 ;
 }
