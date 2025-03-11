@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+    int result = -1 ;
 
     int N ;
     scanf("%d" , &N) ;
@@ -18,15 +19,19 @@ int main(){
         frequencyelem[arr[i]] ++ ;
         
         if(frequencyelem[arr[i]]==2){
-            printf("%d" , arr[i]) ;
+            result = arr[i] ;
+
             break ;
             
             
         }
 
-        else printf("-1") ;
+       
      
 
     }
+
+    printf("%d" , result) ;
+    
   
 }
