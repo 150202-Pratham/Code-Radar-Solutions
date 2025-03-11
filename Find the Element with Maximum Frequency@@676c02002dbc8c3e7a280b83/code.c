@@ -15,6 +15,7 @@ int main(){
     }
     
    int Max_frequency = 1 ;
+    int Most_frequent = -1 ;
 
 
     for(int i = 0 ;i<N ; i++){
@@ -23,14 +24,16 @@ int main(){
 
         if(hashTable[arr[i]]>=Max_frequency){
             
-            Max_frequency = arr[i] ;
+            Max_frequency = hashTable[arr[i]] ;
+            Most_frequent = arr[i] ;
+
 
         }
     }
 
 
 
-    printf("%d", Max_frequency) ;
+    printf("%d", Most_frequent);
 
 
     
