@@ -2,7 +2,12 @@
 #include<stdbool.h>
 #include<stdlib.h>
 bool checkPallindrome(int n ){
+    if(n<0){
 
+        return false ;
+
+        
+    }
     int original  = n ;
     int rev = 0 ;
     while(n!=0){
@@ -33,7 +38,8 @@ int main(){
 
         scanf("%d" , &arr[i]) ;
         if(arr[i]<0){
-            i++ ;
+            continue ;
+
 
         }
         bool result = checkPallindrome(arr[i]);
