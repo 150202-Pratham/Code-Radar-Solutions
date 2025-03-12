@@ -12,7 +12,7 @@ bool checkPallindrome(int n ){
         n = n/10 ;
     }
 
-    (original==rev)? return true : return false ;
+    (original==rev)?return true : return false ;
 
 
 
