@@ -32,7 +32,9 @@ int main(){
     for(int i = 0 ; i<N ;i++){
 
         scanf("%d" , &arr[i]) ;
-        bool result = checkPallindrome(abs(arr[i])) ;
+        int value = abs(arr[i]) ;
+
+        bool result = checkPallindrome(value) ;
         
         if(result){
             count++ ;
