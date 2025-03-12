@@ -27,7 +27,7 @@ int main(){
     scanf("%d" , &N) ;
 
     int arr[N] ;
-    int count ++ ;
+    int count =0 ;
 
     for(int i = 0 ; i<N ;i++){
 
