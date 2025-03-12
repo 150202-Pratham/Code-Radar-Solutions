@@ -32,10 +32,10 @@ int main(){
     for(int i = 0 ; i<N ;i++){
 
         scanf("%d" , &arr[i]) ;
-        int value = abs(arr[i]) ;
-        printf("%d \n" , value) ;
-
-
+        if(arr[i]<0){
+            i++ ;
+            
+        }
         bool result = checkPallindrome(value) ;
         
         if(result){
