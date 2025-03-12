@@ -33,9 +33,9 @@ int main(){
 
         scanf("%d" , &arr[i]) ;
         int value = abs(arr[i]) ;
-        printf("%d" , value) ;
+        printf("%d \n" , value) ;
 
-        
+
         bool result = checkPallindrome(value) ;
         
         if(result){
