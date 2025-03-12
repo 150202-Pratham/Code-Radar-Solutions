@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdbool.h>
-
+#include<stdlib.h>
 bool checkPallindrome(int n ){
 
     int original  = n ;
@@ -32,7 +32,7 @@ int main(){
     for(int i = 0 ; i<N ;i++){
 
         scanf("%d" , &arr[i]) ;
-        bool result = checkPallindrome(arr[i]) ;
+        bool result = checkPallindrome(abs(arr[i])) ;
         
         if(result){
             count++ ;
