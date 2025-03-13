@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n , k;
     scanf("%d" "%d", &n , &k);
     int arr[n] ;
 
@@ -23,7 +23,7 @@ int main() {
     }
 
     printf("%d",count) ;
-    
+
 
     return 0;
 }
