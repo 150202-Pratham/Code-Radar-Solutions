@@ -10,7 +10,7 @@ int main() {
         visited[i] = 0 ;
     }
 
-    for(int i = 0 ; i<N ; i++){
+    for(int i = 0 ; i<n ; i++){
 
        
        if(visited[i]==1){
@@ -20,7 +20,7 @@ int main() {
        int count = 1 ;
 
 
-        for(int j = i+1 ; j<N ; j++){
+        for(int j = i+1 ; j<n ; j++){
             if(arr[i]==arr[j]){
 
              count++ ;
