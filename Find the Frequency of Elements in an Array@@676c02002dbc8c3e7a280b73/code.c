@@ -1,32 +1,36 @@
 #include <stdio.h>
 
-void printFrequency(int arr[], int n) {
-    int freq[1001] = {0}; // Assuming input values are ≤ 1000
-
-    // Count frequencies
-    for (int i = 0; i < n; i++) {
-        freq[arr[i]]++;
-    }
-
-    // Print elements in the order of first occurrence
-    for (int i = 0; i < n; i++) {
-        if (freq[arr[i]] > 0) {
-            printf("%d %d\n", arr[i], freq[arr[i]]);
-            freq[arr[i]] = 0;  // Mark as printed
-        }
-    }
-}
-
 int main() {
     int n;
     scanf("%d", &n);
-    int arr[n];
+    int arr[n], visited[n];
 
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
+        visited[i] = 0 ;
     }
 
-    printFrequency(arr, n);
+    for(int i = 0 ; i<N ; i++){
+
+       
+       if(visited[i]==1){
+        continue ;
+       }
+
+       int count = 1 ;
+       
+
+        for(int j = i+1 ; j<n ; j++){
+            if(arr[i]==arr[j]){
+
+             count++ ;
+             visited[j] = 1 ;
+
+            }
+        }
+
+        printf("%d %d\n", arr[i], count);
+    }
 
     return 0;
 }
