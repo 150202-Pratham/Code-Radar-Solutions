@@ -20,12 +20,12 @@ int main(){
         
         if(hashtable[k]){
 
-            printf("%d %d",arr[i],complement) ;
+            printf("%d %d\n",arr[i],complement) ;
 
         }
 
         hashtable[complement] = 1 ;
-        
+
     }
     
 
