@@ -24,7 +24,7 @@ int main(){
 
         }
 
-        hashtable[complement] = 1 ;
+      hashtable[arr[i]] = 1 ;
 
     }
     
