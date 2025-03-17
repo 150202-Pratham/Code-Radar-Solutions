@@ -18,9 +18,14 @@ int main(){
 
         int complement = k-arr[i] ;
         
-        if(hashtable[complement]){
+        if(complement >=0 && hashtable[complement]){
+            
+            if(arr[i]>complement)  printf("%d %d\n",arr[i],complement) ;
 
-            printf("%d %d\n",arr[i],complement) ;
+            else {
+                printf("%d %d\n" complement , arr[i]) ;
+
+            }
 
         }
 
