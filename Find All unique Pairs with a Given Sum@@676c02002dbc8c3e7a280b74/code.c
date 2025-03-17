@@ -23,7 +23,7 @@ int main(){
             if(arr[i]>complement)  printf("%d %d\n",arr[i],complement) ;
 
             else {
-                printf("%d %d\n" complement , arr[i]) ;
+                printf("%d %d\n", complement , arr[i]) ;
 
             }
 
