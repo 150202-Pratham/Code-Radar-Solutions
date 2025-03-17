@@ -16,7 +16,7 @@ int main(){
     for(int i = 0 ; i<N ; i++){
 
         int complement = k-arr[i] ;
-        for(int j = i+1; j < size; j++){
+        for(int j = i+1; j < N; j++){
         if(complement == arr[j]){
             printf("%d %d",arr[i],arr[j]);
         }
