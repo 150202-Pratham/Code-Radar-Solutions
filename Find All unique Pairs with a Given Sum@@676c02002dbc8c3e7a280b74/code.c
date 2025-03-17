@@ -6,7 +6,6 @@ int main(){
     scanf("%d" , &N) ;
 
     int arr[N];
-    int hashtable[1000] = {0} ;
 
     for(int i = 0 ; i<N ; i++){
 
@@ -17,22 +16,13 @@ int main(){
     for(int i = 0 ; i<N ; i++){
 
         int complement = k-arr[i] ;
-        
-        if(complement >=0 && hashtable[complement]){
-            
-            if(arr[i]>complement)  printf("%d %d\n",arr[i],complement) ;
-
-            else {
-                printf("%d %d\n", complement , arr[i]) ;
-
-            }
-
+        for(int j = i+1; j < size; j++){
+        if(complement == arr[j]){
+            printf("%d %d",arr[i],arr[j]);
         }
-
-      hashtable[arr[i]] = 1 ;
-
-    }
-    
+        }
+    }
+    
 
 
 }
