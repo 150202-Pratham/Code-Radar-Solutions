@@ -15,7 +15,8 @@ int binarySearch(int arr[] , int n , int target){
         if(arr[mid]==target){
 
             output = mid ;
-
+            break ;
+            
 
         }
 
@@ -35,5 +36,5 @@ int binarySearch(int arr[] , int n , int target){
     }
 
     return output ;
-    
+
 }
