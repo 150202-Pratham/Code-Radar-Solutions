@@ -8,8 +8,11 @@ void fibonacciSeries(int n){
     if(n==1){
 
         printf("0");
+        
     }
-    printf("%d %d" , a , b);
+
+    else{
+        printf("%d %d" , a , b);
 
     while(i<=n-2){
 
@@ -22,6 +25,10 @@ void fibonacciSeries(int n){
         
     }
 
+    
+
+
+    }
     
 
 
