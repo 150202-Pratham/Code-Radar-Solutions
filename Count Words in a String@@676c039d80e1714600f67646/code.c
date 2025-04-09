@@ -12,22 +12,36 @@ int main(){
 
     for(int i = 0 ; i<strlen(a) ; i++){
 
-        if(a[i]==' '){
+        if(a[i]!=' '&& a[i]!= '\t' && a[i]!='\n'){
 
-            sum+=1 ;
-            count = 0 ;
+            if(sum==0){
+                
+                count++; 
 
-            continue ;
+                sum = 1 ;
+
+
+
+            }
+            
+
+            else{
+                
+                sum = 0 ;
+
+
+
+            }
 
 
         }
 
-        count++ ;
+      
 
     }
 
 
-    printf("%d" , sum) ;
+    printf("%d" , count) ;
 
-    
+
 }
