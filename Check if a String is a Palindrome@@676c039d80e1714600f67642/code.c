@@ -8,7 +8,7 @@ int main(){
     scanf("%s" , &a) ;
 
     char b[250] ;
-    strcpy(b , a) ;
+    strcpy(a , b) ;
 
 
     int i = 0 , j = strlen(a)-1 ;
@@ -36,7 +36,7 @@ int main(){
 
         printf("No") ;
 
-        
+
     }
 
     
