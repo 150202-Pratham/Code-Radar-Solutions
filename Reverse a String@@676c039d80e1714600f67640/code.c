@@ -3,7 +3,7 @@
 
 int main(){
 
-    char a[] ;
+    char a[250] ;
 
     scanf("%s" , &a) ;
 
