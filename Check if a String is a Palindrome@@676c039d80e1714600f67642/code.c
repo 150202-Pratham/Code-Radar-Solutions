@@ -8,7 +8,7 @@ int main(){
     scanf("%s" , &a) ;
 
     char b[250] ;
-    strcpy(a , b) ;
+    strcpy(b , a) ;
 
 
     int i = 0 , j = strlen(a)-1 ;
@@ -26,7 +26,7 @@ int main(){
     }
 
 
-    if(a == b){
+    if(strcmp(a,b)==0){
 
         printf("Yes") ;
 
