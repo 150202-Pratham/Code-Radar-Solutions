@@ -4,8 +4,8 @@ int main(){
 
     char a[1000] ;
 
+    fgets(a , 1000, stdin) ;
 
-    scanf("%s" , &a) ;
     
     int count = 0 ;
 
@@ -13,8 +13,6 @@ int main(){
     for(int i = 0 ; a[i]!='\0' ; i++){
 
         count++ ;
-
-
 
     }
 
