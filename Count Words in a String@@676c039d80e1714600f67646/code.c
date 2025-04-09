@@ -17,8 +17,8 @@ int main(){
             if(sum==0){
                 
                 count++; 
-                printf("%s",a[i]) ;
-                
+               
+
                 sum = 1 ;
 
 
