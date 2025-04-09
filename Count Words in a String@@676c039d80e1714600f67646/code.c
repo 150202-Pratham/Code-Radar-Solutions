@@ -7,7 +7,7 @@ int main(){
     int count = 0 ;
     int sum = 0 ;
 
-    
+
     fgets(a , 1000 , stdin) ;
 
     for(int i = 0 ; i<strlen(a) ; i++){
@@ -25,4 +25,9 @@ int main(){
         count++ ;
 
     }
+
+
+    printf("%d" , sum) ;
+
+    
 }
