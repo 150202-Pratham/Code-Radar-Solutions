@@ -18,6 +18,6 @@ int main(){
 
     }
 
-    printf("%d" , count-1) ;
-    
+    printf("%d" , count) ;
+
 }
