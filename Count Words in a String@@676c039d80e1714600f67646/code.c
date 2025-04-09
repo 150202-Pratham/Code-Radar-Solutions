@@ -12,7 +12,7 @@ int main(){
 
     for(int i = 0 ; i<strlen(a) ; i++){
 
-        if(a[i]!=' '&& a[i]!= '\t' && a[i]!='\n'){
+        if(a[i]!=' ' && a[i]!= '\t' && a[i]!='\n'){
 
             if(sum==0){
                 
@@ -23,17 +23,14 @@ int main(){
 
 
             }
+    
+
+        }
+
+        else{
+
+            sum = 0 ;
             
-
-            else{
-                
-                sum = 0 ;
-
-
-
-            }
-
-
         }
 
       
