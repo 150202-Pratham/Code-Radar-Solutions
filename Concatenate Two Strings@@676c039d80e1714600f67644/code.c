@@ -11,5 +11,5 @@ int main(){
     fgets(a , 1000 , stdin) ;
     fgets(b , 1000 , stdin) ;
 
-    printf("%s%s" , a , b)
+    printf("%s%s" , a , b);
 }
