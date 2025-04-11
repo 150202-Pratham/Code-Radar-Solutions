@@ -36,7 +36,7 @@ int main(){
 
     // Removing the null chardacter from first String 
 
-    int i = 0 ;
+    i = 0 ;
 
     while(a[i]!='\0'){
 
@@ -44,7 +44,7 @@ int main(){
     }
     //  iterating over the another string to reach its null point 
 
-    int j = 0 ; 
+     j = 0 ; 
 
     while(b[j]!='\0'){
 
