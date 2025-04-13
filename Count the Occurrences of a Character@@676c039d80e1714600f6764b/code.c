@@ -6,7 +6,9 @@ int main(){
     int count  = 0 ; 
     char a[1000] ;
     scanf("%s", &a) ;
-
+    
+    
+    getchar() ;
     char b;
     scanf("%c" , &b) ;
 
