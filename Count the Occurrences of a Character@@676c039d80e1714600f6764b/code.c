@@ -12,13 +12,14 @@ int main(){
 
     for(int i = 0 ; i<strlen(a);i++){
 
-        if(strcmp(a[i],b)){
+        if(a[i]==b){
 
             count++ ;
 
         }
 
     }
+
     printf("%d" , count) ;
 
     return 0 ;
